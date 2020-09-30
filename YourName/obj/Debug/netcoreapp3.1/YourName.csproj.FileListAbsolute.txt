@@ -1,0 +1,13 @@
+C:\Users\feign\Desktop\DotNetDb\YourName\bin\Debug\netcoreapp3.1\YourName.exe
+C:\Users\feign\Desktop\DotNetDb\YourName\bin\Debug\netcoreapp3.1\YourName.deps.json
+C:\Users\feign\Desktop\DotNetDb\YourName\bin\Debug\netcoreapp3.1\YourName.runtimeconfig.json
+C:\Users\feign\Desktop\DotNetDb\YourName\bin\Debug\netcoreapp3.1\YourName.runtimeconfig.dev.json
+C:\Users\feign\Desktop\DotNetDb\YourName\bin\Debug\netcoreapp3.1\YourName.dll
+C:\Users\feign\Desktop\DotNetDb\YourName\bin\Debug\netcoreapp3.1\YourName.pdb
+C:\Users\feign\Desktop\DotNetDb\YourName\obj\Debug\netcoreapp3.1\YourName.csprojAssemblyReference.cache
+C:\Users\feign\Desktop\DotNetDb\YourName\obj\Debug\netcoreapp3.1\YourName.AssemblyInfoInputs.cache
+C:\Users\feign\Desktop\DotNetDb\YourName\obj\Debug\netcoreapp3.1\YourName.AssemblyInfo.cs
+C:\Users\feign\Desktop\DotNetDb\YourName\obj\Debug\netcoreapp3.1\YourName.csproj.CoreCompileInputs.cache
+C:\Users\feign\Desktop\DotNetDb\YourName\obj\Debug\netcoreapp3.1\YourName.dll
+C:\Users\feign\Desktop\DotNetDb\YourName\obj\Debug\netcoreapp3.1\YourName.pdb
+C:\Users\feign\Desktop\DotNetDb\YourName\obj\Debug\netcoreapp3.1\YourName.genruntimeconfig.cache
