@@ -12,7 +12,7 @@ namespace TicketSystem
         {
             logger.Info("Program started");
             
-            Console.WriteLine("Hello World!");
+            string ticketFilePath = "ticket.csv";
 
             logger.Info("Program ended");
         }
