@@ -45,7 +45,26 @@ namespace TicketSystem
         {
             logger.Error(ex.Message);
         }
-
         }
-    }
+
+        public void AddTicket(Ticket ticket){
+            try {
+                ticket.ticketId = Tickets.Max(t => t.ticketId) + 1;
+
+                StreamWriter sw = new StreamWriter(filePath, true);
+                sw.WriteLine($"{ticket.ticketId}, {ticket.summary}, {ticket.status}, {ticket.priority}, {ticket.submitter}, {ticket.assigned}, {ticket.peopleWatching}");
+                sw.Close();
+
+                Tickets.Add(ticket);
+
+                logger.Info("Ticket id {id} added", ticket.ticketId);
+            }
+            catch(Exception ex)
+            {
+                logger.Error(ex.Message);
+            }
+            
+        }
+
+    }                                                                                                                                                
 }
