@@ -6,7 +6,8 @@ namespace TicketSystem
 
     public class Ticket
     {
-        public UInt64 ticketId {get; set;}
+        public UInt64 ticketId { get; set;}
+        
         public string summary {get; set;}
 
         public string status {get; set;}
@@ -19,8 +20,15 @@ namespace TicketSystem
 
         public List<string> peopleWatching { get; set; }
 
+        // constructor
+        public Ticket(){
+            peopleWatching = new List<string>();
+        } 
+
+        // display function for tickets
         public string Display(){
-            return $"Id: {ticketId}\nSummary: {summary}\nStatus {status}\nPriority: {priority}\nSubmitted by: {submitter}\nAssigned to: {assigned}\nPeople Watching: {peopleWatching}";
+            return $"Id: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitted by: {submitter}\nAssigned to: {assigned}\nPerson(s) Watching: {string.Join(", ", peopleWatching)}\n";
+            
         }
 
         
